@@ -1,0 +1,183 @@
+#g-header-topbar{ background-color: #ffffff;  }
+.jl-navbar-container,.jl-sticky{ background-color: #0c2d66 !important; }
+#search-container{ position: relative; display: flex; align-items: center;  }
+#search-container .search-icon { font-size: 20px; color:#cccccc; margin-left: -25px;}
+#search-container #search-box { border-radius: 8px; }
+.box-top-bar { display: flex; align-items: center; color: #0c2d66; }
+.box-top-bar .boxlang a{ color: #0c2d66 !important; }
+ul.top-menus { display: flex; align-items: center; margin: 10px auto !important; }
+ul.top-menus li { list-style: none; }
+ul.top-menus li a { list-style: none; padding-right: 20px; color: #0c2d66; }
+ul.top-menus li:hover a { color: #ff0000; }
+.jl-navbar-nav ul li a { color: #ffffff !important; }
+.jl-navbar-nav ul li a:hover { color: #ff0000;}
+.box-menu-topbar { background-color: #ffffff !important; }
+
+/** Menu **/
+.navbar{ padding-bottom: 0; padding-top:0;}
+.dropdown-item {
+    color: #fff;
+}
+.dropdown .dropdown-menu {
+    display: none;
+    background: #0c2d66;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-top: .1em;
+    margin-left: .1em;
+}
+
+ul.dropdown-menu li:hover a{ background: none;}
+.navbar-toggler:focus { box-shadow: none !important; border-radius: unset; border: none; }
+
+@media screen and (min-width:769px) {
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+    .dropend .dropdown-toggle {
+        margin-left: .5em;
+    }
+}
+
+.jl-navbar-nav { gap: 15px; }
+
+/** End menu **/
+
+
+.header, .header-wrapper {
+    background-position: 50% 0;
+    background-size: cover;
+    position: relative;
+    transition: background-color .3s, opacity .3s;
+    width: 100%;
+    z-index: 1001
+}
+.header-bottom, .header-top {
+    align-items: center;
+    display: flex;
+    flex-wrap: no-wrap;
+}
+
+.top-bar-nav > li > a { font-size: 14px; color: #fff !important; font-weight: 700 !important; }
+.top-bar-nav > li > a:hover { color: var(--secondary-color) !important; }
+.top-bar-nav > li .nav-dropdown { padding: 12px; }
+.top-bar-nav > li .nav-dropdown > li > a { font-size: 14px; font-weight: 600; color: #000 !important; padding: 17px 0; display: block; text-transform: none; position: relative; }
+.top-bar-nav > li .nav-dropdown > li > a:hover { color: var(--secondary-color) !important; }
+.top-bar-nav > li > a {
+    line-height: 16px
+}
+
+#searchHome{ text-align: right; }
+#searchHome input[type="text"]{ border-radius: 8px; -webkit-border-radius: 8px; max-width: 160px; max-height: 30px; padding: 3px 5px;}
+#searchHome #searchBtn{ cursor: pointer;}
+.jl-logo { max-width: 240px !important; }
+.jl-navbar .navbar-collapse { flex-grow: 0; }
+#jlnavbar-5523.tm-header .jl-light .jl-navbar-nav > li > a:active, #jlnavbar-5523.tm-header .jl-light .jl-navbar-nav > li.jl-active > a{/* color: #0c2d66 !important;*/}
+.jl-navbar-right ul li a, .jl-navbar-sticky ul li a { color: #ffffff !important; }
+/*.jl-navbar .jl-navbar-transparent .jl-navbar-right ul li a { text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; }*/
+.jl-navbar-right ul li a:hover { color: #ff0000 !important; }
+#g-header { margin-top: 10px; }
+#g-header:before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #ff0000 0%, #2F93CC 65%) !important;; /*rgba(200, 36, 27, 0.85);*/
+}
+
+#g-header [class*=jl-inline] { font-size: 36px;}
+
+
+.tm-title { color: #0c2d66; padding-bottom: 5px; }
+.jl-section{ padding-top: 35px; padding-bottom: 35px;}
+/*tham quan*/
+.tham-quan-title{ font-weight: bold; color:#0c2d66; }
+.watch-video-text{ padding-left: 40px; font-weight: bold; color: #ff0000;}
+.btn-tqonline-text{ margin-bottom: 40px; }
+.tham-quan-btn{ font-weight: bold;}
+
+.jl-overlay { padding: 5px;}
+.news-items .jl-position-medium {
+    width:100%;
+    margin: 0px;
+    --jl-position-margin-offset: 0px;
+    opacity: 0.8;
+}
+
+.news-items .tm-title{ text-align: center; padding: 0 5px 5px 5px;}
+.news-items .tm-item:hover .tm-title{padding-bottom: 0;}
+.bg-gradient-cold {
+    background: linear-gradient(135deg, #ff0000 0%, #2F93CC 70%) !important;
+}
+
+.news-title-box { margin-top: 0; margin-bottom: 0; padding: 8px; background: linear-gradient(135deg, #0f377c 0%, #2F93CC 70%); color: #ffffff; border-radius: 10px 10px 0 0; }
+.news-title{ color: #ffffff; padding-bottom: 0; font-size: 22px; }
+
+#g-showcase {
+    color: #1c1c1c;
+    /* background: #ffffff; */
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/k59j94vze954b.jpg?658239755);
+}
+
+#g-showcase:before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.9);
+}
+
+#g-showcase .viewImg{opacity: 0.7;}
+#g-footer{/*background: linear-gradient(135deg, #ff0000 0%, #2F93CC 70%) !important;*/}
+#g-footer {
+    color: #ffffff;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/k59j94vze954b.jpg?6582393453);
+}
+#g-footer:before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 70, 80, 0.9);
+}
+#g-footer { color: #ffffff !important; }
+#g-footer h3 { color: #ffffff !important; }
+#g-footer ul li a{ color: #ffffff !important; }
+#g-footer p { margin-bottom: 0; }
+#g-copyright { background: linear-gradient(184deg, #0c2d66 46%, #ffffff 168%) !important; color: #ffffff; }
+#g-copyright a { color: #ffffff; }
+
+@media (min-width: 549px) {
+    .pswp__top-bar {
+        background-color: transparent !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .jl-navbar .navbar-collapse { margin-top: 30px; margin-bottom: 20px; padding: 10px 0; border-top: 1px solid #ffffff; border-bottom: 1px solid #ffffff;}
+    .jl-navbar-nav > li > a{ justify-content: left; min-height: auto;}
+}
+
+@media screen and (max-width: 600px) {
+    ul.top-menus li a{ font-size: 10px;}
+    .jl-flex-middle { align-items: unset; margin: 0 auto; }
+}
