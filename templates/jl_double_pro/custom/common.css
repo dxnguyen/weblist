@@ -96,10 +96,10 @@ ul.dropdown-menu li:hover a{ background: none;}
 
 
 .tm-title { color: #0c2d66; padding-bottom: 5px; }
-.jl-section{ padding-top: 35px; padding-bottom: 35px;}
+.jl-section{ padding-top: 35px; padding-bottom: 35px; }
 /*tham quan*/
 .tham-quan-title{ font-weight: bold; color:#0c2d66; }
-.watch-video-text{ padding-left: 40px; font-weight: bold; color: #ff0000;}
+.watch-video-text{ padding-left: 40px; font-weight: bold; color: #ff0000; }
 .btn-tqonline-text{ margin-bottom: 40px; }
 .tham-quan-btn{ font-weight: bold;}
 
