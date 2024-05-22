@@ -29,341 +29,7 @@
     <link href="templates/jl_double_pro/custom/common.css" rel="stylesheet"/>
     <!-- DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
-    <style>
-        #cf_2 .cf-btn:hover {
-            background-color: #153fd6 !important;
-            color: #ffffff !important;
-        }
-    </style>
-    <style>.convertforms {
-        --color-primary: #4285F4;
-        --color-success: #0F9D58;
-        --color-danger: #d73e31;
-        --color-warning: #F4B400;
-        --color-default: #444;
-        --color-grey: #ccc;
 
-    }
-    </style>
-    <style>#cf_2 {
-        --font: Arial;
-        --background-color: rgba(255, 255, 255, 1);
-        --border-radius: 0px;
-        --control-gap: 10px;
-        --label-color: #161616;
-        --label-size: 15px;
-        --label-weight: 400;
-        --input-color: #666666;
-        --input-placeholder-color: #66666670;
-        --input-text-align: left;
-        --input-background-color: #ffffff;
-        --input-border-color: #69727d;
-        --input-border-radius: 0px;
-        --input-size: 15px;
-        --input-padding: 12px 10px;
-
-    }
-    </style>
-    <style>.cf-field-hp {
-        display: none;
-        position: absolute;
-        left: -9000px;
-    }</style>
-    <style>
-        #cf_1 .cf-btn:after {
-            border-radius: 5px
-        }
-    </style>
-    <style>#cf_1 {
-        --font: Arial;
-        --background-color: rgba(255, 255, 255, 1);
-        --border-radius: 0px;
-        --control-gap: 10px;
-        --label-color: #888888;
-        --label-size: 13px;
-        --label-weight: 400;
-        --input-color: #333333;
-        --input-placeholder-color: #33333370;
-        --input-text-align: left;
-        --input-background-color: #f6f6f6;
-        --input-border-color: #ffffff;
-        --input-border-radius: 0px;
-        --input-size: 14px;
-        --input-padding: 13px 20px;
-
-    }
-    </style>
-    <style>html {
-        height: auto;
-    }</style>
-    <style>.jl-header-overlay {
-        /*position: absolute;*/
-        z-index: 980;
-        left: 0;
-        right: 0;
-    }
-
-    #jlnavbar-5523-particle .jl-navbar-container:not(.jl-navbar-transparent) {
-        background-color: #ffffff;
-    }
-
-    #jlnavbar-5523 .jl-logo {
-        color: #ffffff;
-    }
-
-    #jlnavbar-5523.tm-header .jl-light .jl-navbar-nav > li > a, #jlnavbar-5523.tm-header .jl-light .jl-search-toggle, #jlnavbar-5523.tm-header .jl-light .jl-navbar-toggle {
-        color: rgba(255, 255, 255, 0.8);
-    }
-
-    #jlnavbar-5523.tm-header .jl-light .jl-search-toggle:hover, #jlnavbar-5523.tm-header .jl-light .jl-search-toggle:focus, #jlnavbar-5523.tm-header .jl-light .jl-navbar-toggle:hover, #jlnavbar-5523.tm-header .jl-light .jl-navbar-toggle:focus {
-        color: #ffffff;
-    }
-
-    #jlnavbar-5523.tm-header .jl-light .jl-navbar-nav > li:hover > a, #jlnavbar-5523.tm-header .jl-light .jl-navbar-nav > li > a:focus, #jlnavbar-5523.tm-header .jl-light .jl-navbar-nav > li > a[aria-expanded="true"] {
-        color: #ffffff;
-    }
-
-    #jlnavbar-5523.tm-header .jl-light .jl-navbar-nav > li > a:active, #jlnavbar-5523.tm-header .jl-light .jl-navbar-nav > li.jl-active > a {
-        color: #ffffff;
-    }</style>
-    <style>
-        .jlfeaturebox-3349 .tm-icon {
-            font-size: 40px;
-        }</style>
-    <style>
-        .jlsimplecounter-5893 .jl-counter-icon {
-            font-size: 35px;
-        }
-    </style>
-    <style>
-        .tm-votes .voted {
-            color: #f2b827;
-        }
-    </style>
-    <style>
-        .tm-video-item {
-            position: relative
-        }
-
-        .jl-light .tm-video-player .btn-video {
-            background-color: rgba(255, 255, 255, .15);
-            color: rgba(255, 255, 255, .5);
-        }
-
-        .jl-light .tm-video-player .btn-video:before {
-            border-color: rgba(255, 255, 255, 0.65)
-        }
-
-        .btn-video {
-            text-align: center;
-            height: 60px;
-            width: 60px;
-            z-index: 1;
-            font-size: 17px;
-            color: #fff;
-            border: 0;
-            border-radius: 100%;
-            display: inline-block;
-            position: relative
-        }
-
-        .btn-video i {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 20px
-        }
-
-        .btn-video:hover {
-            color: #fff
-        }
-
-        .btn-video .ripple, .btn-video .ripple:before, .btn-video .ripple:after {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            -ms-border-radius: 50%;
-            transform: translate(-50%, -50%);
-            -ms-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
-            -o-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
-            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
-            -webkit-animation: ripple 3s infinite;
-            animation: ripple 3s infinite
-        }
-
-        .tm-video-player {
-            position: relative;
-            line-height: 1
-        }
-
-        .tm-video-player .btn-video {
-            transition: all .5s ease;
-            -moz-transition: all .5s ease;
-            -webkit-transition: all .5s ease;
-            -ms-transition: all .5s ease;
-            -o-transition: all .5s ease
-        }
-
-        .tm-video-player .btn-video:before {
-            content: "";
-            position: absolute;
-            left: -8px;
-            top: -8px;
-            right: -8px;
-            bottom: -8px;
-            border: 1px solid rgba(0, 0, 0, 0.3);
-            border-radius: 50%
-        }
-
-        .tm-video-player .btn-video:hover {
-            background: #fff;
-        }
-
-        .tm-video-item:hover .btn-video {
-            background: #fff
-        }
-
-        .btn-video .ripple:before {
-            -webkit-animation-delay: .9s;
-            animation-delay: .9s;
-            content: "";
-            position: absolute
-        }
-
-        .btn-video .ripple:after {
-            -webkit-animation-delay: .6s;
-            animation-delay: .6s;
-            content: "";
-            position: absolute
-        }
-
-        @-webkit-keyframes ripple {
-            70% {
-                box-shadow: 0 0 0 40px rgba(255, 255, 255, 0)
-            }
-            100% {
-                box-shadow: 0 0 0 0 rgba(255, 255, 255, 0)
-            }
-        }
-
-        @keyframes ripple {
-            70% {
-                box-shadow: 0 0 0 40px rgba(255, 255, 255, 0)
-            }
-            100% {
-                box-shadow: 0 0 0 0 rgba(255, 255, 255, 0)
-            }
-        }
-
-        .tm-video-player .btn-video {
-            background-color: #ff0000; /*#2d2d32;*/
-            color: #ffffff;
-        }
-
-        .btn-video:hover {
-            color: #ffffff;
-        }
-
-        .tm-video-player .btn-video:hover {
-            background-color: #0c2d66;
-        }
-
-        .tm-video-item:hover .btn-video i {
-            color: #ffffff;
-        }
-    </style>
-
-    <style>
-        .tm-tg-switch-label {
-            position: relative;
-            display: inline-block;
-            width: 65px;
-            height: 31px;
-            vertical-align: middle;
-            margin: 0 20px
-        }
-
-        .tm-tg-slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #101828;
-            transition: .4s
-        }
-
-        .tm-tg-slider:before {
-            position: absolute;
-            content: "";
-            height: 21px;
-            width: 21px;
-            left: 5px;
-            bottom: 5px;
-            background-color: #F2F4F7;
-            border-radius: 50%;
-            transition: .4s
-        }
-
-        .tm-tg-switch + .tm-tg-slider {
-            background-color: #cdd5e0
-        }
-
-        .tm-tg-switch:checked + .tm-tg-slider {
-            background-color: #d2d2d2
-        }
-
-        .tm-tg-switch:checked + .tm-tg-slider:before, button.tm-tg-slider[aria-expanded="false"]:before {
-            transform: translateX(34px)
-        }
-
-        .tm-tg-slider.tm-tg-round {
-            border-radius: 500px
-        }
-
-        .tm-tg-slider.tm-tg-round:before {
-            -webkit-border-radius: 50%;
-            border-radius: 50%
-        }
-
-        .tm-tg-switch:checked + .tm-tg-slider {
-            background-color: #4fbe79
-        }
-
-        .tm-tg-slider:before {
-            background-color: #fff
-        }
-
-        .tm-tg-switch-label .tm-tg-switch {
-            opacity: 0;
-            width: 0;
-            height: 0
-        }
-
-        #jlcontenttoggle-9247 .tm-tg-slider:before {
-            background-color: #000000;
-        }
-
-        #jlcontenttoggle-9247 .tm-tg-slider.tm-tg-round {
-            background-color: #ffffff;
-        }
-
-        #jlcontenttoggle-9247 .jl-table {
-            border: none;
-        }
-    </style>
-
-    <style>
-        #jldivider-9642-particle .jl-hr,
-        #jldivider-9642-particle hr {
-            border-top: 1px solid #e5e5e5;
-        }
-    </style>
 
     <script src="media/system/js/core.mind6dc.js?ee06c8994b37d13d4ad21c573bbffeeb9465c0e2"></script>
     <script src="media/system/js/keepalive-es5.min544d.js?4eac3f5b0c42a860f0f438ed1bea8b0bdddb3804" defer
@@ -446,7 +112,7 @@
                 <div class="g-block size-100">
                     <div id="jlheading-3361-particle" class="g-content g-particle news-title-box">
                         <div class="jlheading-3361 tm-secondary-font">
-                            <h3 class="news-title text-center tm-title jl-margin-remove-bottom jl-text-bold jl-h2 jl-text-uppercase">Danh sách website thuộc Trung tâm</h3>
+                            <h3 class="news-title text-center tm-title jl-margin-remove-bottom jl-text-bold jl-h2 jl-text-uppercase">Danh sách website Phòng CNTT-DL</h3>
                         </div>
                     </div>
                 </div>
@@ -467,24 +133,25 @@
                                     $(document).ready(function() {
                                         // Khởi tạo đối tượng website
                                         var myObject = {
-                                            0: { title: "Quản lý nhân sự", url: 'https://hrm.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-1.jpg" },
-                                            1: { title: "Quản lý sinh viên", url: 'https://ql.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-2.jpg" },
-                                            2: { title: "Web sinh viên", url: 'https://sv.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-3.jpg" },
-                                            3: { title: "Quản lý tài sản", url: 'https://qlts.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-4.jpg" },
-                                            4: { title: "Báo cáo thông minh", url: 'https://bi.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-5.jpg" },
-                                            5: { title: "Xác thực thông tin", url: 'https://id.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-6.jpg" },
-                                            6: { title: "Thanh tra pháp chế", url: 'https://ttpc.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-7.jpg" },
-                                            7: { title: "Không gian văn hóa HCM", url: 'https://kgvhhcm.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-8.jpg" },
-                                            8: { title: "Quản lý cây xanh", url: 'https://qlcayxanh.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-9.jpg" },
-                                            9: { title: "Tham quan online", url: 'https://thamquan.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-10.jpg" },
-                                            10: { title: "Thư viện hình ảnh", url: 'https://thuvienanh.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-11.jpg" },
+                                            0: { title: "Quản lý nhân sự", url: 'https://hrm.ktxhcm.edu.vn', image_path: "images/portfolio-img-1.jpg" },
+                                            1: { title: "Quản lý sinh viên", url: 'https://ql.ktxhcm.edu.vn', image_path: "images/portfolio-img-2.jpg" },
+                                            2: { title: "Website sinh viên", url: 'https://sv.ktxhcm.edu.vn', image_path: "images/portfolio-img-3.jpg" },
+                                            3: { title: "Báo cáo thông minh", url: 'https://bi.ktxhcm.edu.vn', image_path: "images/portfolio-img-5.jpg" },
+                                            4: { title: "Xác thực thông tin", url: 'https://id.ktxhcm.edu.vn', image_path: "images/portfolio-img-6.jpg" },
+                                            5: { title: "Tham quan online", url: 'https://thamquan.ktxhcm.edu.vn', image_path: "images/portfolio-img-10.jpg" },
+                                            6: { title: "Quản lý FaceID", url: 'http://face.ktxhcm.edu.vn', image_path: "images/portfolio-img-12.jpg" },
+                                            7: { title: "Quản lý công việc", url: 'http://sdesk.ktxhcm.edu.vn', image_path: "images/portfolio-img-13.jpg" },
+                                            8: { title: "Theo dõi thiết bị số", url: 'http://noc.ktxhcm.edu.vn', image_path: "images/portfolio-img-14.jpg" },
+                                            9: { title: "Hệ thống thi trắc nghiệm 1", url: 'http://tracnghiem1.ktxhcm.edu.vn', image_path: "images/portfolio-img-15.jpg" },
+                                            10: { title: "Hệ thống thi trắc nghiệm 2", url: 'http://tracnghiem2.ktxhcm.edu.vn', image_path: "images/portfolio-img-16.jpg" },
+                                            11: { title: "Quản lý Form khảo sát", url: 'http://khaosat.ktxhcm.edu.vn', image_path: "images/portfolio-img-17.jpg" },
                                         };
 
                                         console.log(myObject);
                                         // Show website
                                         for (var key in myObject) {  console.log(myObject[key].url);
                                             var web_items = '' +
-                                                '<div class="item-list">' +
+                                                '<div class="item-list item-'+key+'">' +
                                                 '<a class="tm-item jl-inline-clip jl-transition-toggle jl-link-toggle" href="' + myObject[key].url +'" target="_blank" title="'+ myObject[key].title +'" jl-scrollspy-class>' +
                                                 '<img src="' + myObject[key].image_path +'" width="1024" height="892" class="tm-image jl-transition-scale-up jl-transition-opaque" alt="" loading="lazy">' +
                                                 '<div class="jl-position-bottom-center jl-position-medium jl-tile-default jl-transition-slide-bottom-small">' +
@@ -499,6 +166,7 @@
                                             }
                                         }
                                     });
+
                                 </script>
 
                         </div>
@@ -514,7 +182,7 @@
                 <div class="g-block size-100">
                     <div id="jlheading-3361-particle" class="g-content g-particle news-title-box">
                         <div class="jlheading-3361 tm-secondary-font">
-                            <h3 class="news-title text-center tm-title jl-margin-remove-bottom jl-text-bold jl-h2 jl-text-uppercase">Danh sách website khác</h3>
+                            <h3 class="news-title text-center tm-title jl-margin-remove-bottom jl-text-bold jl-h2 jl-text-uppercase">Danh sách website các phòng ban khác</h3>
                         </div>
                     </div>
                 </div>
@@ -535,19 +203,21 @@
                                     $(document).ready(function() {
                                         // Khởi tạo đối tượng website
                                         var otherObject = {
-                                            0: { title: "Quản lý nhân sự", url: 'https://hrm.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-1.jpg" },
-                                            1: { title: "Quản lý sinh viên", url: 'https://ql.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-2.jpg" },
-                                            2: { title: "Web sinh viên", url: 'https://sv.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-3.jpg" },
-                                            3: { title: "Quản lý tài sản", url: 'https://qlts.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-4.jpg" },
-                                            4: { title: "Báo cáo thông minh", url: 'https://bi.ktxhcm.edu.vn', image_path: "templates/jl_double_pro/custom/images/portfolio-img-5.jpg" },
-
+                                            1: { title: "Hồ sơ sức khỏe", url: 'http://hssk.ktxhcm.edu.vn', image_path: "images/portfolio-img-18.jpg" },
+                                            2: { title: "Website trung tâm", url: 'http://ktx.vnuhcm.edu.vn', image_path: "images/portfolio-img-19.jpg" },
+                                            3: { title: "Hướng dẫn sinh viên", url: 'http://huongdan.ktxhcm.edu.vn', image_path: "images/portfolio-img-20.jpg" },
+                                            4: { title: "Quản lý tài sản", url: 'https://qlts.ktxhcm.edu.vn', image_path: "images/portfolio-img-4.jpg" },
+                                            5: { title: "Thanh tra pháp chế", url: 'https://ttpc.ktxhcm.edu.vn', image_path: "images/portfolio-img-7.jpg" },
+                                            6: { title: "Không gian văn hóa HCM", url: 'https://kgvhhcm.ktxhcm.edu.vn', image_path: "images/portfolio-img-8.jpg" },
+                                            7: { title: "Quản lý cây xanh", url: 'https://qlcayxanh.ktxhcm.edu.vn', image_path: "images/portfolio-img-9.jpg" },
+                                            8: { title: "Thư viện hình ảnh", url: 'https://thuvienanh.ktxhcm.edu.vn', image_path: "images/portfolio-img-11.jpg" },
                                         };
 
                                         console.log(otherObject);
                                         // Show website
                                         for (var key in otherObject) {
                                             var other_web_items = '' +
-                                                '<div class="item-list">' +
+                                                '<div class="item-list item-'+key+'">' +
                                                 '<a class="tm-item jl-inline-clip jl-transition-toggle jl-link-toggle" href="' + otherObject[key].url +'" target="_blank" title="'+ otherObject[key].title +'" jl-scrollspy-class>' +
                                                 '<img src="' + otherObject[key].image_path +'" width="1024" height="892" class="tm-image jl-transition-scale-up jl-transition-opaque" alt="" loading="lazy">' +
                                                 '<div class="jl-position-bottom-center jl-position-medium jl-tile-default jl-transition-slide-bottom-small">' +
